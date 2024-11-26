@@ -6,6 +6,145 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  /* 设置页面的最小高度为视口高度 */
+}
+
+/* 页头样式 */
+header {
+    background-color: #4A90E2;  /* 替换为柔和的蓝色 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* 导航栏样式 */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 主内容部分 */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* 文章背景色为白色 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 加阴影效果 */
+    flex-grow: 1; /* 让主内容区域占据剩余空间 */
+}
+
+/* 设置文章列表 */
+.post-list {
+    margin-top: 20px;
+}
+
+.post-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-list ul li {
+    margin-bottom: 10px;
+}
+
+.post-list ul li a {
+    color: #4A90E2; /* 使用同一蓝色 */
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-list ul li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* 设置每篇文章的样式 */
+article {
+    background-color: white; /* 每篇文章的背景色 */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* 给每篇文章加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* 添加轻微的阴影效果 */
+}
+
+/* 设置文章标题的样式 */
+article h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* 设置段落和列表项的样式 */
+p, li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* 设置链接样式 */
+a {
+    text-decoration: none;
+    color: #4A90E2;  /* 替换为柔和的蓝色 */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #E2E8F0; /* 淡灰色背景 */
+    color: #333;
+    margin-top: 20px;
+    /* 将页脚定位到页面底部 */
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .post-list ul li {
+        font-size: 18px;
+    }
+}
+
+    background-color: #f7f7f7;  /* 设置页面的淡灰色背景 */
+    color: #333; /* 设置文本颜色 */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 /* 页头样式 */
