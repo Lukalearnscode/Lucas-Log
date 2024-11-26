@@ -1,0 +1,2 @@
+# Lucas-Log
+Some notes
