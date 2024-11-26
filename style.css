@@ -1,8 +1,8 @@
 /* 设置全局字体和背景 */
 body {
     font-family: 'Times New Roman', sans-serif;
-    background-color: #f7f7f7;  /* 设置页面的淡灰色背景 */
-    color: #333; /* 设置文本颜色 */
+    background-color: #fffff0;  /* 设置页面背景 */
+    color: #333333; /* 设置文本颜色 */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -13,8 +13,8 @@ body {
 
 /* 页头样式 */
 header {
-    background-color: #4A90E2;  /* 替换为柔和的蓝色 */
-    color: white;
+    background-color: #556b2f;  
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
