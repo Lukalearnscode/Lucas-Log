@@ -10,7 +10,7 @@ body {
 
 /* 页头样式 */
 header {
-    background-color: #0073e6; /* 头部背景色 */
+    background-color: #4A90E2;  /* 替换为柔和的蓝色 */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -67,7 +67,7 @@ main {
 }
 
 .post-list ul li a {
-    color: #0073e6;
+    color: #4A90E2; /* 使用同一蓝色 */
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
@@ -103,7 +103,7 @@ p, li {
 /* 设置链接样式 */
 a {
     text-decoration: none;
-    color: #0073e6;
+    color: #4A90E2;  /* 替换为柔和的蓝色 */
 }
 
 a:hover {
@@ -114,9 +114,13 @@ a:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #0073e6;
-    color: white;
+    background-color: #E2E8F0; /* 淡灰色背景 */
+    color: #333;
     margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
 }
 
 /* 响应式设计 */
